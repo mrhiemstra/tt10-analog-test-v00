@@ -1,0 +1,19 @@
+Failed: ngspice /home/ttuser/.xschem/simulations/test_bench_opamp.spice -a
+stderr:
+Warning: Unusual leading characters like '?' or others out of '= [] ? () & % $"!:,\f'
+    in netlist or included files, will be replaced with '*'.
+    check line  ?
+    line no. 32 from file /home/ttuser/.xschem/simulations/test_bench_opamp.spice!
+
+Error: unknown subckt: x1.xr1 x1.net3 vcc vss x1.sky130_fd_pr__res_xhigh_po_2p85 x1.l=2.85 x1.mult=1 m=1
+    in line no. 45 from file /home/ttuser/.xschem/simulations/test_bench_opamp.spice
+    Simulation interrupted due to error!
+
+Note: No ".plot", ".print", or ".fourier" lines; no simulations run
+data:
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: ** sch_path: /home/ttuser/tt_projects/tt10-analog-test-v00/xschem/test_bench_opamp.sch
+
